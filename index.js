@@ -185,7 +185,7 @@ async function run() {
       res.send(review);
     });
 
-    // -------------------Update User Info--------------------
+    // ------------------- Update User Information  --------------------
 
     app.put("/info", async (req, res) => {
       const email = req.params.email;
